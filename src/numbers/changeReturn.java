@@ -22,5 +22,6 @@ public class changeReturn {
 		System.out.println((int) returnAmount);
 		double change = (returnAmount - (int) returnAmount) * 100;
 		System.out.println(change);
+		System.exit(0);;
 	}
 }
